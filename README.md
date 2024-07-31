@@ -105,11 +105,10 @@ The application is built on a multi-layered architecture:
    ```
 
 *Note:* This setup should authomatically connect the frontend to the backend when running locally.
-## Contacts
+## Contributors:
 
-For any questions on installation, please contact us at:
-- simkrah2018@gmail.com (Data Analysis)
 - frankkyeibaffour@gmail.com (Backend)
 - gideongyimah19@gmail.com (frontend)
 - chikafranciscachidimma@gmail.com (Data Analysis)
+- simkrah2018@gmail.com (Data Analysis)
 
