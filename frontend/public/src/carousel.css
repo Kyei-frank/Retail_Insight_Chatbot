@@ -1,0 +1,171 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slider-container {
+  display: flex;
+  width: 200%;
+  animation: scroll 20s linear infinite;
+  animation-play-state: running;
+}
+
+.slider-container.paused {
+  animation-play-state: paused;
+}
+
+.slide {
+  flex: 0 0 20%;
+  padding: 0 10px;
+}
+
+.slide img {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+.slick-slide img {
+  display: block;
+  margin: auto;
+}
+
+.slick-dots li button::before {
+  font-size: 12px;
+  color: #000;
+}
+
+.slick-dots li.slick-active button::before {
+  color: #000;
+}
+
+.slick-prev::before, .slick-next::before {
+  color: black;
+}
+
+.space-y-8 > * + * {
+  margin-top: 2rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
+
+.shadow {
+  box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.w-1-4 { width: 25%; }
+
+.h-auto {
+  height: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.card-size {
+  height: 300px;
+}
+
+.product-img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: #1E3A8A;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.menu-button svg {
+  font-size: 1.5rem;
+}
+
+.title {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
